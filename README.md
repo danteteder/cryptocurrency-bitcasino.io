@@ -1,4 +1,5 @@
-# https://github.com/coingaming/front-end-test-assignment project completed
+
+# [Front-end test assignment completed](https://github.com/coingaming/front-end-test-assignment)
 
 Task description:
 - Use React, Apollo, TypeScript and hooks.
