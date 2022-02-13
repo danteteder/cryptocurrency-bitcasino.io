@@ -1,0 +1,28 @@
+.formContainer {
+  background-color: #fff;
+  padding: 36px 42px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+  max-width: 430px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+
+  & button[type='submit'] {
+    width: 100%;
+    background-color: #fd4b23;
+    color: #fff;
+    margin-top: 12px;
+    padding: 12px;
+    border-radius: 24px;
+    font-weight: 500;
+    font-size: 16px;
+  }
+}
+
+.tos {
+  margin-top: 48px;
+  color: var(--secondary-text-color);
+  text-align: center;
+}

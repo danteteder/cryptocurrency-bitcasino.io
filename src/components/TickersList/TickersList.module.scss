@@ -1,0 +1,68 @@
+.list {
+  --card-height: 80px;
+
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: calc(var(--card-height) * 4);
+
+  &::-webkit-scrollbar {
+    width: 2px;
+  }
+
+  &::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+  }
+}
+
+.tickerCard {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: var(--card-height);
+  padding: 12px 12px 12px 0;
+  width: 300px;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    --start-color: rgba(255, 255, 255, 0.3);
+    background: var(---start-color);
+    background: linear-gradient(90deg, var(--start-color) 0%, rgba(255, 255, 255, 0) 100%);
+  }
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.data {
+  margin-left: 32px;
+
+  & > * {
+    margin: 0;
+  }
+
+  h6 {
+    font-size: 16px;
+  }
+
+  & p {
+    color: var(--secondary-text-color);
+    margin-top: 14px;
+  }
+}
+
+.remove {
+  cursor: pointer;
+}

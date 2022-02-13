@@ -1,0 +1,45 @@
+:root {
+  --text-color: #fff;
+  --primary-background-color: #290a49;
+  --secondary-text-color: rgb(187, 187, 187);
+
+  --primary-font: 'Roboto';
+
+  --footer-height: 104px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--primary-background-color);
+  color: var(--text-color);
+  min-height: 100vh;
+  font-family: var(--primary-font);
+  background-image: url('../public/assets/bg.png');
+  background-position: top -20vh right -70vw;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  font-family: var(--primary-font);
+}
+
+input {
+  border: none;
+  outline: none;
+  font-family: var(--primary-font);
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1562px;
+  padding: 0 24px;
+}

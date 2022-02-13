@@ -1,0 +1,29 @@
+.container {
+  --label-padding: 4px;
+  --label-margin: 10px;
+
+  position: relative;
+  border: 1px solid var(--secondary-text-color);
+  border-radius: 4px;
+  height: 44px;
+  padding: 1px calc(var(--label-margin) + var(--label-padding));
+
+  & input {
+    height: 100%;
+    width: 100%;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  & label {
+    position: absolute;
+    color: var(--secondary-text-color);
+    top: -8px;
+    left: var(--label-margin);
+    padding: 0 var(--label-padding);
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: #fff;
+  }
+}

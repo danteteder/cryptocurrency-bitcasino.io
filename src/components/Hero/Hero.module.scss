@@ -1,0 +1,15 @@
+.container {
+  & > h1 {
+    max-width: 490px;
+    font-weight: normal;
+    font-size: 52px;
+  }
+
+  & > p {
+    margin-top: 24px;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.404);
+    max-width: 300px;
+    line-height: 32px;
+  }
+}
