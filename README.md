@@ -1,10 +1,18 @@
-# Getting Started with Create React App
+# https://github.com/coingaming/front-end-test-assignment project completed
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Task description:
+- Use React, Apollo, TypeScript and hooks.
+- Create a website that looks similar to preview.png.
+- The required images are in “assets” folder.
+- The exact colours, fonts and text sizes used are not important.
+- User can add cryptocurrencies to the list by entering their codes ("BTC", "XRP", BNB" etc.)
+- User can see the list of added currencies together with their EUR prices.
+- User can remove the cryptocurrencies from the list.
+- The EUR price is fetched from an API service.
 
-## Available Scripts
+## Notes
 
-In the project directory, you can run:
+If needed, can update to make fully responsive as well. Also added some extra comments on certain files.
 
 ### `npm start`
 
